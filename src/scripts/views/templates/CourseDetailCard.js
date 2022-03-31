@@ -22,7 +22,11 @@ const renderLinks = (element, course) => {
   element.innerHTML += '<p class="card-title h5">Link : </p>';
   course.links.forEach(({ name, url }) => {
     element.innerHTML += `
-      <p class="card-text"><a href="${url}">${name}</a></p>
+      <p class="card-text">
+        <a href="${url}" target="_blank" rel="noopener noreferrer">
+          ${name}
+        </a>
+      </p>
     `;
   });
 };
