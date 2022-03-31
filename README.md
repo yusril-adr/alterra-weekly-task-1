@@ -22,6 +22,6 @@ Berisi tentang summary dari materi ke 1-8. Saya juga mencoba bereksperimen mener
 
 ---
 ## LICENSE
-[BSD 3-Clause](./LICENSE.md)
+[MIT](./LICENSE.md)
 
 © Developed by [Yusril A. P.](https://github.com/yusril-adr)
