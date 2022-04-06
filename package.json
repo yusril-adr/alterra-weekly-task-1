@@ -8,7 +8,8 @@
     "start-dev": "webpack serve --config webpack.dev.js",
     "graph": "git log --all --oneline --text --decorate --graph",
     "start": "node server",
-    "build-start": "npm run build && npm start"
+    "build-start": "npm run build && npm start",
+    "deploy": "netlify deploy --prod"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
+    "netlify-cli": "^9.16.3",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "postcss": "^8.4.12",
     "postcss-loader": "^6.2.1",
